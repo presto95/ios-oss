@@ -86,6 +86,8 @@
 		373D1B74224EDF57000E2970 /* CheckoutTableViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373D1B73224EDF57000E2970 /* CheckoutTableViewControllerTests.swift */; };
 		373D1B76224EDF69000E2970 /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373D1B75224EDF69000E2970 /* CheckoutViewController.swift */; };
 		373D1B78224EDF77000E2970 /* CheckoutViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373D1B77224EDF77000E2970 /* CheckoutViewControllerTests.swift */; };
+		373D1B7A224EDF9A000E2970 /* CheckoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373D1B79224EDF9A000E2970 /* CheckoutViewModel.swift */; };
+		373D1B7C224EDFB8000E2970 /* CheckoutViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373D1B7B224EDFB8000E2970 /* CheckoutViewModelTests.swift */; };
 		37637ED8224AA03D00777AD2 /* CreatePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37637ED7224AA03D00777AD2 /* CreatePasswordViewController.swift */; };
 		37653F82220A07710016E7F9 /* SettingsGroupedHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37653F81220A07710016E7F9 /* SettingsGroupedHeaderView.swift */; };
 		3780C8622208F8C8002117D1 /* SettingsTextInputCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3780C8602208F8C1002117D1 /* SettingsTextInputCell.swift */; };
@@ -1891,6 +1893,8 @@
 		373D1B73224EDF57000E2970 /* CheckoutTableViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutTableViewControllerTests.swift; sourceTree = "<group>"; };
 		373D1B75224EDF69000E2970 /* CheckoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
 		373D1B77224EDF77000E2970 /* CheckoutViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewControllerTests.swift; sourceTree = "<group>"; };
+		373D1B79224EDF9A000E2970 /* CheckoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewModel.swift; sourceTree = "<group>"; };
+		373D1B7B224EDFB8000E2970 /* CheckoutViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewModelTests.swift; sourceTree = "<group>"; };
 		37637ED7224AA03D00777AD2 /* CreatePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordViewController.swift; sourceTree = "<group>"; };
 		37653F81220A07710016E7F9 /* SettingsGroupedHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsGroupedHeaderView.swift; sourceTree = "<group>"; };
 		3780C8602208F8C1002117D1 /* SettingsTextInputCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTextInputCell.swift; sourceTree = "<group>"; };
@@ -4085,6 +4089,8 @@
 				D04AAC13218BB70A00CF713E /* ChangePasswordViewModelTests.swift */,
 				9D0FB7741D7600B5005774F2 /* CheckoutRacingViewModel.swift */,
 				A7ED1F731E831C5C00BFFA01 /* CheckoutRacingViewModelTests.swift */,
+				373D1B79224EDF9A000E2970 /* CheckoutViewModel.swift */,
+				373D1B7B224EDFB8000E2970 /* CheckoutViewModelTests.swift */,
 				A7F441941D005A9400FE6FC5 /* CommentCellViewModel.swift */,
 				A7ED1F661E831C5C00BFFA01 /* CommentCellViewModelTests.swift */,
 				A7F441951D005A9400FE6FC5 /* CommentDialogViewModel.swift */,
@@ -5819,6 +5825,7 @@
 				A76126B91C90C94000EDCCB9 /* UIView-Extensions.swift in Sources */,
 				A77D7B071CBAAF5D0077586B /* Paginate.swift in Sources */,
 				01F547ED1D53994B000A98EF /* TabBarItemStyles.swift in Sources */,
+				373D1B7A224EDF9A000E2970 /* CheckoutViewModel.swift in Sources */,
 				597073B41D07294500B00444 /* ProjectNotificationCellViewModel.swift in Sources */,
 				015572711E79C427005FB8CC /* ProfileProjectCellViewModel.swift in Sources */,
 				A75CFB081CCE7FCF004CD5FA /* StaticTableViewCell.swift in Sources */,
@@ -6052,6 +6059,7 @@
 				A7ED1FE01E831C5C00BFFA01 /* DiscoveryNavigationHeaderViewModelTests.swift in Sources */,
 				A7ED1F481E831BA200BFFA01 /* AlertError+Equatable.swift in Sources */,
 				A7ED1FF91E831C5C00BFFA01 /* ProjectNotificationsViewModelTest.swift in Sources */,
+				373D1B7C224EDFB8000E2970 /* CheckoutViewModelTests.swift in Sources */,
 				A7ED1F361E830FDC00BFFA01 /* String+TruncateTests.swift in Sources */,
 				D723708E2118CD9C001EA4CA /* SettingsRequestDataCellViewModelTests.swift in Sources */,
 				A7ED1FFA1E831C5C00BFFA01 /* ProjectPamphletContentViewModelTests.swift in Sources */,
